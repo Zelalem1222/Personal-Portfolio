@@ -3,7 +3,7 @@ body {
   width: 390px;
   height: 718px;
   margin-left: 30px;
-  background: #fff; 
+  background: #fff;
 }
 
 header {
@@ -12,24 +12,24 @@ header {
   margin-top: 85px;
 }
 
-header h1{
-  color: #172B4D;
-  font-family:"Poppins";
+header h1 {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   position: static;
   height: 150px;
-  width: 327px;  
+  width: 327px;
   display: flex;
   align-items: center;
-  margin: 50px 0px 12px;
+  margin: 50px 0 12px;
 }
 
 header p {
   color: #344563;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -39,22 +39,22 @@ header p {
   height: 146px;
   left: 24px;
   top: 276px;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
-header h4{
+header h4 {
   position: static;
   width: 120px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
-.ellipse3{
+.ellipse3 {
   position: absolute;
   width: 105px;
   height: 105px;
@@ -62,7 +62,7 @@ header h4{
   top: 142px;
 }
 
-.ellipse4{
+.ellipse4 {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -70,13 +70,13 @@ header h4{
   top: 654.1px;
 }
 
-.ellipse5{
+.ellipse5 {
   position: absolute;
   width: 13px;
   height: 10px;
   left: 100.98px;
   top: 118.81px;
-  background: #CBCDFF;
+  background: #cbcdff;
   transform: rotate(45.97deg);
   border-radius: 50%;
 }
@@ -87,11 +87,11 @@ header h4{
   height: 15px;
   left: 214px;
   top: 70px;
-  background: #FFFFFF;
-  box-sizing: border-box;    
+  background: #fff;
+  box-sizing: border-box;
 }
 
-.ellipse12{
+.ellipse12 {
   position: absolute;
   width: 32.14px;
   height: 16.07px;
@@ -99,7 +99,7 @@ header h4{
   top: 506.69px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  background: #6070FF;
+  background: #6070ff;
   transform: rotate(-169.08deg);
 }
 
@@ -109,8 +109,8 @@ header h4{
   height: 30.1px;
   left: 293.18px;
   top: 524.44px;
-  background: #EBEBFF;
-  transform: rotate(-11.9deg);    
+  background: #ebebff;
+  transform: rotate(-11.9deg);
 }
 
 .ellipse15 {
@@ -119,11 +119,11 @@ header h4{
   height: 15px;
   left: 30px;
   top: 630px;
-  background: #FFFFFF;
+  background: #fff;
   box-sizing: border-box;
 }
 
-.rectangle4{
+.rectangle4 {
   position: absolute;
   width: 111px;
   height: 70.02px;
@@ -132,23 +132,23 @@ header h4{
   transform: rotate(-5deg);
 }
 
-.rectangle5{
+.rectangle5 {
   position: absolute;
   left: 230px;
   top: 662.1px;
 }
 
-.rectangle7{
+.rectangle7 {
   position: absolute;
   width: 24.46px;
   height: 4.73px;
   left: 100.18px;
   top: 115.59px;
-  background: #6070FF;
+  background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
-.vector{
+.vector {
   margin-top: -13px;
   width: 190px;
   display: flex;
@@ -157,23 +157,23 @@ header h4{
 }
 
 .fa-brands {
-  color: #505F79;
+  color: #505f79;
 }
 
 .fa-solid {
-  color: #6070FF;
+  color: #6070ff;
 }
 
-h3{
+h3 {
   position: static;
   width: 320px;
   height: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070FF;
+  color: #6070ff;
   display: inline-flex;
   margin-top: 20px;
 }
@@ -181,6 +181,6 @@ h3{
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   margin: 0 50px 0 0;
 }
