@@ -3,16 +3,16 @@ body {
   width: 390px;
   height: 718px;
   margin-left: 30px;
-  background: #fff;
+  background-image: url("images/header-background-mobile.png");
 }
 
-header {
+section {
   display: flex;
   height: 500px;
   margin-top: 85px;
 }
 
-header h1 {
+section h1 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -27,7 +27,7 @@ header h1 {
   margin: 50px 0 12px;
 }
 
-header p {
+section p {
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -42,7 +42,7 @@ header p {
   margin: 12px 0;
 }
 
-header h4 {
+section h4 {
   position: static;
   width: 120px;
   height: 24px;
@@ -89,6 +89,14 @@ header h4 {
   top: 70px;
   background: #fff;
   box-sizing: border-box;
+}
+
+.ellipse11 {
+  position: absolute;
+  height: 36.25px;
+  width: 43.5px;
+  top: 90.47px;
+  left: -42.96px;
 }
 
 .ellipse12 {
@@ -138,6 +146,15 @@ header h4 {
   top: 662.1px;
 }
 
+.rectangle6 {
+  position: absolute;
+  top: 75px;
+  left: -32px;
+  height: 46px;
+  width: 23px;
+  transform: rotate(-14deg);
+}
+
 .rectangle7 {
   position: absolute;
   width: 24.46px;
@@ -148,23 +165,20 @@ header h4 {
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
-.vector {
+ul {
   margin-top: -13px;
   width: 190px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 0;
 }
 
-.fa-brands {
-  color: #505f79;
+ul li {
+  list-style: none;
 }
 
-.fa-solid {
-  color: #6070ff;
-}
-
-h3 {
+header nav a {
   position: static;
   width: 320px;
   height: 20px;
@@ -176,6 +190,7 @@ h3 {
   color: #6070ff;
   display: inline-flex;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 nav {
