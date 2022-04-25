@@ -1,196 +1,186 @@
 body {
-    position: absolute;
-    width: 390px;
-    height: 718px;
-    margin-left: 30px;
-    left: 0;
-    top: 0;
-    background : #FFFFFF;
-    border: 1px solid blue;
-    
+  position: absolute;
+  width: 390px;
+  height: 718px;
+  margin-left: 30px;
+  background : #FFFFFF; 
 }
-
-/* /* .header {
-    display: flex;
-    border: 1px solid rgb(22, 21, 21);
-
-}
-
-.header li {
-   list-style: none;
-   flex: 1 1 100px;
-} */
-/*  */
 
 header {
-    display: flex;
-    border: 1px solid red;
-    height: 500px;
-    margin-top: 30px;
+  display: flex;
+  height: 500px;
+  margin-top: 85px;
 }
 
 header h1{
-    color: #172B4D;
-    font-family:"Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    position: static;
-    height: 150px;
-    width: 327px;
-    /* left: 24px;
-    top: 114px; */
-    display: flex;
-    align-items: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 50px 0px 12px;
+  color: #172B4D;
+  font-family:"Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  position: static;
+  height: 150px;
+  width: 327px;  
+  display: flex;
+  align-items: center;
+  margin: 50px 0px 12px;
 }
 
 header p {
-    color: #344563;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    position: static;
-    width: 327px;
-    height: 146px;
-    left: 24px;
-    top: 276px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 12px 0px;
+  color: #344563;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  margin: 12px 0px;
 }
 
 header h4{
-    position: static;
-    width: 120px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
-    flex: 0;
-    order: 0;
-    flex-grow: 0;
-    /* margin: 0px 0px; */
+  position: static;
+  width: 120px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
 }
 
 .ellipse3{
-    position: absolute;
-    width: 105px;
-    height: 105px;
-    left: 305px;
-   top: 150px;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 305px;
+  top: 142px;
+}
+
+.ellipse4{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 250px;
+  top: 654.1px;
 }
 
 .ellipse5{
-    position: absolute;
-    width: 13px;
-    height: 10px;
-    left: 100.98px;
-    top: 145.81px;
-    background: #CBCDFF;
-    transform: rotate(45.97deg);
-    border-radius: 50%;
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  left: 100.98px;
+  top: 118.81px;
+  background: #CBCDFF;
+  transform: rotate(45.97deg);
+  border-radius: 50%;
 }
 
 .ellipse8 {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 214px;
-    top: 90px;
-    background: #FFFFFF;
-    box-sizing: border-box;
-    
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 70px;
+  background: #FFFFFF;
+  box-sizing: border-box;    
 }
 
 .ellipse12{
-    position: absolute;
-    width: 32.14px;
-    height: 16.07px;
-    left: 294.7px;
-    top: 546.69px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background: #6070FF;
-    transform: rotate(-169.08deg);
+  position: absolute;
+  width: 32.14px;
+  height: 16.07px;
+  left: 294.7px;
+  top: 506.69px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background: #6070FF;
+  transform: rotate(-169.08deg);
 }
 
 .ellipse13 {
-    position: absolute;
-    width: 30.1px;
-    height: 30.1px;
-    left: 293.18px;
-    top: 566.44px;
-    background: #EBEBFF;
-    transform: rotate(-11.9deg);
-    
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 293.18px;
+  top: 524.44px;
+  background: #EBEBFF;
+  transform: rotate(-11.9deg);    
+}
+
+.ellipse15 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 30px;
+  top: 630px;
+  background: #FFFFFF;
+  box-sizing: border-box;
 }
 
 .rectangle4{
-    position: absolute;
-    width: 111px;
-    height: 70.02px;
-    left: 284px;
-    top: 115.79px;
-    transform: rotate(-5deg);
+  position: absolute;
+  width: 111px;
+  height: 70.02px;
+  left: 284px;
+  top: 108.79px;
+  transform: rotate(-5deg);
+}
+
+.rectangle5{
+  position: absolute;
+  left: 230px;
+  top: 662.1px;
 }
 
 .rectangle7{
-    position: absolute;
-    width: 24.46px;
-    height: 4.73px;
-    left: 100.18px;
-    top: 142.59px;
-    background: #6070FF;
-    transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+  position: absolute;
+  width: 24.46px;
+  height: 4.73px;
+  left: 100.18px;
+  top: 115.59px;
+  background: #6070FF;
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
 .vector{
-    /* border: 1px solid red; */
-    width: 190px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: -13px;
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fa-brands {
-    color: #505F79;
+  color: #505F79;
 }
 
 .fa-solid {
-    color: #6070FF;
+  color: #6070FF;
 }
 
 h3{
-    position: static;
-    width: 320px;
-    height: 20px;
-    border: 1px solid black;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #6070FF;
-    display: inline-flex;
-    margin-top: 20px;
+  position: static;
+  width: 320px;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070FF;
+  display: inline-flex;
+  margin-top: 20px;
 }
+
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   margin: 30px 50px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin: 0 50px 0 0;
 }
-
-
