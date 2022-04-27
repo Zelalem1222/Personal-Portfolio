@@ -115,7 +115,7 @@ header nav img {
   border-radius: 10px;
 }
 
-.card-1 h1 {
+.card-1 h2 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -216,7 +216,23 @@ button {
   background: #fff;
 }
 
-.card-2 h1 {
+button:hover {
+  background-color: #6010ff;
+  color: #fff;
+}
+
+button:active {
+  background-color: #2230d2;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
+}
+
+.card-2 h2 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -268,7 +284,7 @@ button {
   color: #344563;
 }
 
-.card-3 h1 {
+.card-3 h2 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -287,7 +303,7 @@ button {
   color: #344563;
 }
 
-.card-4 h1 {
+.card-4 h2 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -315,7 +331,7 @@ button {
   background: #fff;
 }
 
-.about h1 {
+.about h2 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -367,6 +383,22 @@ button {
   line-height: 10px;
   color: #396df2;
   background: #fff;
+}
+
+.about button:hover {
+  background-color: #6010ff;
+  color: #fff;
+}
+
+.about button:active {
+  background-color: #2230d2;
+  transition: 0.3s;
+}
+
+.about button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
 }
 
 .languages-used ul {
