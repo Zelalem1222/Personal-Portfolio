@@ -1,5 +1,7 @@
 html {
   background: #f7f7f0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 body {
@@ -25,8 +27,6 @@ body {
 
 .background h1 {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -40,8 +40,6 @@ body {
 
 .background p {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -53,8 +51,6 @@ body {
 
 .background h4 {
   position: static;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -77,8 +73,6 @@ ul li {
 }
 
 header nav a {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -117,8 +111,30 @@ header nav img {
 
 .card-1 h2 {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 33px;
+  margin: 16px 0 0;
+}
+
+.card-2 h2 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 33px;
+  margin: 16px 0 0;
+}
+
+.card-3 h2 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 33px;
+  margin: 16px 0 0;
+}
+
+.card-4 h2 {
+  color: #172b4d;
   font-weight: 700;
   font-size: 40px;
   line-height: 33px;
@@ -140,8 +156,6 @@ header nav img {
 }
 
 .container h3 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -152,8 +166,6 @@ header nav img {
 }
 
 .container .counter1 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -161,8 +173,6 @@ header nav img {
 }
 
 .container .counter2 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -179,8 +189,6 @@ header nav img {
 }
 
 .languages li {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -193,8 +201,27 @@ header nav img {
 }
 
 .card-1 p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.card-2 p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.card-3 p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.card-4 p {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -207,8 +234,6 @@ button {
   margin: 12px 0 10px 5px;
   border-radius: 10px;
   border: 1px solid #396df2;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -232,38 +257,8 @@ button:disabled {
   border: 1px solid #e5e5e5;
 }
 
-.card-2 h2 {
-  color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  margin: 16px 0 0;
-}
-
-.card-2 {
-  width: 290px;
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 10px;
-  margin: 75px 0;
-}
-
-.card-3 {
-  width: 290px;
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 10px;
-  margin: 75px 0;
-}
-
+.card-2,
+.card-3,
 .card-4 {
   width: 290px;
   display: flex;
@@ -275,57 +270,10 @@ button:disabled {
   margin: 75px 0;
 }
 
-.card-2 p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.card-3 h2 {
-  color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  margin: 16px 0 0;
-}
-
-.card-3 p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.card-4 h2 {
-  color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  margin: 16px 0 0;
-}
-
-.card-4 p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
 .about {
   display: grid;
   width: 324px;
-  height: 900px;
+  height: 960px;
   padding: 60px 20px 0;
   border-top-right-radius: 70px;
   background: #fff;
@@ -333,8 +281,6 @@ button:disabled {
 
 .about h2 {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 37px;
   line-height: 50px;
@@ -344,8 +290,6 @@ button:disabled {
 
 .about p {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -362,8 +306,6 @@ button:disabled {
 
 .about h4 {
   position: static;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -376,8 +318,6 @@ button:disabled {
   margin: 0;
   border-radius: 10px;
   border: 1px solid #396df2;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 10px;
@@ -408,8 +348,6 @@ button:disabled {
 }
 
 .languages-used h3 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -448,8 +386,6 @@ button:disabled {
 }
 
 .languages-list h5 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
@@ -471,10 +407,105 @@ button:disabled {
   padding-left: 205px;
 }
 
-.skills {
-  border-bottom: 1px solid #dfe1e6;
-}
-
+.skills,
 .frameworks {
   border-bottom: 1px solid #dfe1e6;
 }
+
+.contact-form {
+    background-image: url("images/contact-form-shape-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 190px 705px;
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    height: 740px;
+    width: 324px;
+    background-position: right;
+    padding: 0 20px;
+    text-align: center;
+    border-top-left-radius: 100px;
+}
+
+.contact-form div {
+  padding: 50px 12px 10px;
+}
+
+.contact-form h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-form p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.name,
+.email {
+  height: 35px;
+  width: 280px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 3px 10px;
+  /* margin-bottom: 15px; */
+}
+
+.inputs {
+  display: grid;
+  grid-row-gap: 14px;
+}
+
+textarea {
+  width: 272px;
+  height: 150px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 20px 15px;
+}
+
+.contact-form button {
+  width: 140px;
+  height: 47px;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 10px;
+  color: #396df2;
+  background: #fff;
+  margin: 0;
+}
+
+.contact-form button:hover {
+  background-color: #6010ff;
+  color: #fff;
+}
+
+.contact-form button:active {
+  background-color: #2230d2;
+  transition: 0.3s;
+}
+
+.contact-form button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
+}
+
+hr {
+  width: 140px;
+  height: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #0d151e;
+}
+
+
+
+
+
