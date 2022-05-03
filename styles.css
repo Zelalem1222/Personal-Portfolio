@@ -396,7 +396,7 @@ button:disabled {
 .contact-form {
   background-image: url("images/contact-form-shape-mobile.png");
   background-repeat: no-repeat;
-  background-size: 190px 705px;
+  background-size: 190px 650px;
   background-color: #6070ff;
   display: flex;
   flex-direction: column;
@@ -410,6 +410,7 @@ button:disabled {
 
 .contact-form div {
   padding: 50px 12px 10px;
+  margin-top: 22px;
 }
 
 .contact-form h2 {
@@ -426,39 +427,43 @@ button:disabled {
   line-height: 28px;
 }
 
-.name,
-.email {
+#name,
+#email {
   height: 35px;
   width: 280px;
   border: 1px solid #fff;
   border-radius: 8px;
   padding: 3px 10px;
+  font: inherit;
 }
 
 .inputs {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-row-gap: 14px;
 }
 
 textarea {
   width: 272px;
-  height: 150px;
+  height: 120px;
   border: 1px solid #fff;
   border-radius: 8px;
   padding: 20px 15px;
+  font: inherit;
 }
 
 .contact-form button {
+  font: inherit;
   width: 140px;
   height: 47px;
   border-radius: 10px;
   border: 1px solid #396df2;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 10px;
   color: #396df2;
   background: #fff;
-  margin: 0;
+  margin: 6px 0 10px;
 }
 
 .contact-form button:hover {
