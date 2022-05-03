@@ -400,6 +400,7 @@ button:disabled {
   background-color: #6070ff;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 740px;
   width: 324px;
   background-position: right;
@@ -437,7 +438,7 @@ button:disabled {
   font: inherit;
 }
 
-.inputs {
+form {
   display: flex;
   flex-direction: column;
   grid-row-gap: 14px;
