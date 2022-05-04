@@ -146,7 +146,7 @@ header ul li a {
   margin: 16px 0 0;
 }
 
-.snapshot-desktop {
+.works-desktop {
   display: none;
 }
 
@@ -361,12 +361,17 @@ button:disabled {
   
   .works-desktop {
     padding: 90px 20px 50px;
-    display: grid;
     background: #f7f7f9;
+    display: -webkit-inline-box;
+  }
+
+  .cards-desktop {
+    display: grid;
+    grid-row-gap: 90px;
   }
 
   .description {
-     margin: 30px 100px 0 60px; 
+     margin: 30px 0 0 40px; 
   }
 
   .card-1-desktop {
@@ -386,6 +391,97 @@ button:disabled {
     line-height: 33px;
     margin: 16px 0 0;
   } 
+
+  .card-1-desktop p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .card-2-desktop {
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 10px;
+  }
+  
+  .card-2-desktop h2 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 33px;
+    margin: 16px 0 0;
+  } 
+
+  .card-2-desktop p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .card-3-desktop {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 10px;
+  }
+  
+  .card-3-desktop h2 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 33px;
+    margin: 16px 0 0;
+  } 
+
+  .card-3-desktop p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .card-3-desktop button {
+    background-color: #2230d2;
+    color: #fff;
+  }
+
+  .description { 
+    margin: 30px 0 0 35px;
+  }
+
+  .card-4-desktop {
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 10px;
+  }
+  
+  .card-4-desktop h2 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 33px;
+    margin: 16px 0 0;
+  } 
+
+  .card-4-desktop p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
   
   .container {
     display: flex;
@@ -402,8 +498,8 @@ button:disabled {
   }
   
   .container h3 {
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 16px;
     color: #344563;
     display: flex;
@@ -445,12 +541,29 @@ button:disabled {
     border-radius: 11px;
     background: #ebebff;
   }
+
+  .card-4-desktop .languages {
+    display: flex;
+    grid-column-gap: 10px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 3px;
+    margin: 12px 0;
+    width: 297px;
+  }
+
+  .hand-cursor {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    top: 2270px;
+    right: 220px;
+  }
   
-  .card-1-desktop p {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
+  .snapshot-desktop2,
+  .snapshot-desktop3,
+  .snapshot-desktop4 {
+    width: 544px;
   }
 }
 
