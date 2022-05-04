@@ -16,14 +16,17 @@ body {
   border-bottom-left-radius: 100px;
 }
 
+
 .background {
   background-image: url("images/header-shapes-mobile.png");
   background-repeat: no-repeat;
-  background-size: 375px 600px;
+  /* background-size: 375px 600px; */
   margin-top: 50px;
   display: flex;
   height: 600px;
 }
+
+
 
 .background h1 {
   color: #172b4d;
@@ -33,8 +36,8 @@ body {
   position: static;
   height: 150px;
   width: 327px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   margin: 100px 20px 12px;
 }
 
@@ -72,7 +75,7 @@ ul li {
   list-style: none;
 }
 
-header nav a {
+.header-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -90,7 +93,12 @@ header nav {
   padding: 20px 0 0;
 }
 
-.works {
+header ul li a {
+  display: none;
+}
+
+
+.works-mobile {
   padding: 90px 20px 50px;
   display: grid;
   background: #f7f7f9;
@@ -136,6 +144,10 @@ header nav {
   font-size: 40px;
   line-height: 33px;
   margin: 16px 0 0;
+}
+
+.snapshot-desktop {
+  display: none;
 }
 
 .container {
@@ -265,6 +277,181 @@ button:disabled {
   border: 1px solid #dfe1e6;
   border-radius: 10px;
   margin: 75px 0;
+}
+
+@media only screen and (min-width : 768px) {
+  body {
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 738px;
+    padding: 1px 50px;
+    border-bottom-left-radius: 40;
+  }
+
+  .background {
+    /* padding-left: 70px; */
+    background-image: url("images/Header-desktop.png");
+    background-size: 94% 95%;
+    height: 603px;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .background div {
+    display: grid;
+    width: 710px;
+    height: 280px;
+    margin: 190px 200px;
+  }
+
+  .background h1 {
+    margin: 0;
+    width: 330px;
+    height: 120px;
+  }
+
+  .background p {
+    margin: 0;
+    width: auto;
+  }
+
+
+  header nav {
+    margin: 0 170px 0 110px;
+    padding: 0;
+    /* width: 1220; */
+  }
+
+  header ul li {
+    display: contents;
+  }
+
+  header ul li a {
+    display: inline;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  header nav img {
+    display: none;
+  }
+
+  .background h4 {
+    margin-left: 0;
+  }
+
+  .background .vector {
+    margin-left: 0;
+  }
+
+  .snapshot-mobile1 {
+    display: none;
+  }
+
+  .works-mobile {
+    display: none;
+  }
+
+  /* work-desktop */
+  
+  .works-desktop {
+    padding: 90px 20px 50px;
+    display: grid;
+    background: #f7f7f9;
+  }
+
+  .description {
+     margin: 30px 100px 0 60px; 
+  }
+
+  .card-1-desktop {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 10px;
+  }
+  
+  .card-1-desktop h2 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 33px;
+    margin: 16px 0 0;
+  } 
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0 0;
+    width: 250px;
+    align-items: baseline;
+    margin: 15px 0 10px;
+  }
+  
+  .container li img {
+    margin: 0 5px;
+  }
+  
+  .container h3 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #344563;
+    display: flex;
+    flex: none;
+    margin: 4px 0;
+  }
+  
+  .container .counter1 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #7a869a;
+  }
+  
+  .container .counter2 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #7a869a;
+  }
+  
+  .languages {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 3px;
+    margin: 12px 0;
+    width: 200px;
+  }
+  
+  .languages li {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #6070ff;
+    text-align: center;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 11px;
+    background: #ebebff;
+  }
+  
+  .card-1-desktop p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
 }
 
 .about {
