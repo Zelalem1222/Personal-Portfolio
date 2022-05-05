@@ -834,6 +834,10 @@ hr {
     width: 100%;
   }
 
+  .languages-used ul {
+    width: min-content;
+  }
+
   .union-1 {
     padding-left: 500px;
   }
