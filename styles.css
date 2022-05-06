@@ -241,6 +241,7 @@ button {
   line-height: 24px;
   color: #396df2;
   background: #fff;
+  transition: background 0.5s;
 }
 
 button:hover {
@@ -474,6 +475,7 @@ textarea {
   color: #396df2;
   background: #fff;
   margin: 6px 0 10px;
+  transition: background 0.5s;
 }
 
 .contact-form button:hover {
@@ -550,7 +552,21 @@ hr {
   .background p {
     margin: 0;
     width: auto;
+    animation-duration: 3s;
+    animation-name: slidein; 
   }
+
+   @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }  */
 
   header nav {
     margin: 0 170px 0 110px;
@@ -776,10 +792,29 @@ hr {
     right: 220px;
   }
 
+  .snapshot-desktop1:hover{
+    transform: translateY(-10px);
+}
+
+  .snapshot-desktop1 {
+    transition : transform 0.5s;
+  }
+
   .snapshot-desktop2,
   .snapshot-desktop3,
   .snapshot-desktop4 {
     width: 544px;
+    transition : transform 0.5s;
+  }
+   
+  .snapshot-desktop2:hover {
+    transform: translateY(-10px);
+  }
+  .snapshot-desktop3:hover {
+    transform: translateY(-10px);
+  }
+  .snapshot-desktop4:hover {
+    transform: translateY(-10px);
   }
 
   /* About-desktop */
