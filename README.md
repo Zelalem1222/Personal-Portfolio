@@ -6,6 +6,10 @@
 # Built With
   Html and css
 
+# Live Demo 
+  you can follow the link to see my portfolio work.
+  https://zelalem1222.github.io/Personal-Portfolio/  
+
 # Author
  GitHub:@github/zelalem1222
 
