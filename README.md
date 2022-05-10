@@ -8,7 +8,8 @@
  
 # Live Demo 
   you can follow the link to see my portfolio work.
-  https://zelalem1222.github.io/Personal-Portfolio/ 
+  This is the live deployment [link](https://zelalem1222.github.io/Personal-Portfolio/) of my project
+
 
 # Author
  GitHub:@github/zelalem1222
@@ -24,3 +25,4 @@
 # Acknowledgments 
 
  Inspiration!
+ To my other coding partners.
