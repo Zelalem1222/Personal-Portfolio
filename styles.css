@@ -526,6 +526,7 @@ hr {
     height: 738px;
     padding: 1px 50px;
     border-bottom-left-radius: 40;
+    overflow-x: auto;
   }
 
   .background {
