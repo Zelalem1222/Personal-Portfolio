@@ -109,7 +109,7 @@ body.scroll {
 }
 
 .background#blur.active {
-  filter: blur(6px);
+  filter: blur(10px);
 }
 
 .menu-list {
