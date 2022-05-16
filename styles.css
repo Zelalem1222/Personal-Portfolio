@@ -14,6 +14,8 @@ body {
   margin-top: 0;
   overflow-x: hidden !important;
   border-bottom-left-radius: 100px;
+  right: 0;
+  margin-right: 0;
 }
 
 .background {
@@ -22,6 +24,7 @@ body {
   margin-top: 50px;
   display: flex;
   height: 600px;
+  width: 415px;
 }
 
 .background h1 {
@@ -95,9 +98,9 @@ header ul li a {
   padding: 90px 20px 50px;
   display: grid;
   background: #f7f7f9;
+  margin-left: 25px;
 }
-
-.card-1 {
+.card {
   width: 290px;
   display: flex;
   flex-direction: column;
@@ -107,7 +110,13 @@ header ul li a {
   border-radius: 10px;
 }
 
-.card-1 h2 {
+.card-2,
+.card-3,
+.card-4 {
+  margin: 75px 0;
+}
+
+.card h2 {
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
@@ -115,29 +124,6 @@ header ul li a {
   margin: 16px 0 0;
 }
 
-.card-2 h2 {
-  color: #172b4d;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  margin: 16px 0 0;
-}
-
-.card-3 h2 {
-  color: #172b4d;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  margin: 16px 0 0;
-}
-
-.card-4 h2 {
-  color: #172b4d;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  margin: 16px 0 0;
-}
 
 .works-desktop {
   display: none;
@@ -202,33 +188,13 @@ header ul li a {
   background: #ebebff;
 }
 
-.card-1 p {
+.card p {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
 }
 
-.card-2 p {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.card-3 p {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.card-4 p {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-}
 
 button {
   width: 125px;
@@ -260,22 +226,9 @@ button:disabled {
   border: 1px solid #e5e5e5;
 }
 
-.card-2,
-.card-3,
-.card-4 {
-  width: 290px;
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 10px;
-  margin: 75px 0;
-}
 
 .about {
-  display: grid;
-  width: 324px;
+  width: 375px;
   height: 960px;
   padding: 60px 20px 0;
   border-top-right-radius: 70px;
@@ -412,7 +365,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   height: 740px;
-  width: 324px;
+  width: 375px;
   background-position: right;
   padding: 0 20px;
   text-align: center;
