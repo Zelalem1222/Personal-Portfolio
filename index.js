@@ -34,11 +34,17 @@ menu.addEventListener('click', () => {
 
   document.querySelector('.menu-link1').addEventListener('click', () => {
     main.removeChild(popup);
+    overFlow.classList.remove('scroll');
+    blur.classList.remove('active');
   });
   document.querySelector('.menu-link2').addEventListener('click', () => {
     main.removeChild(popup);
+    overFlow.classList.remove('scroll');
+    blur.classList.remove('active');
   });
   document.querySelector('.menu-link3').addEventListener('click', () => {
     main.removeChild(popup);
+    overFlow.classList.remove('scroll');
+    blur.classList.remove('active');
   });
 });
