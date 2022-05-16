@@ -14,7 +14,6 @@ body {
   margin-top: 0;
   overflow-x: hidden !important;
   border-bottom-left-radius: 100px;
-  left: 20px;
 }
 
 .background {
@@ -23,7 +22,7 @@ body {
   margin-top: 50px;
   display: flex;
   height: 600px;
-  width: 380px;
+  /* width: 380px; */
 }
 
 .background h1 {
@@ -229,7 +228,7 @@ button:disabled {
 
 
 .about {
-  width: 355px;
+  width: 324px;
   height: 960px;
   padding: 60px 20px 0;
   border-top-right-radius: 70px;
@@ -366,7 +365,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   height: 740px;
-  width: 355px;
+  width: 324px;
   background-position: right;
   padding: 0 20px;
   text-align: center;
