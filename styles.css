@@ -98,10 +98,18 @@ header nav {
   z-index: 1;
   background-color: #6070ff;
   width: 100vw;
-  opacity: 90%;
+  opacity: 60%;
   bottom: 0;
   top: 0;
   left: 0;
+}
+
+body.scroll {
+  overflow-y: hidden !important;
+}
+
+.background#blur.active {
+  filter: blur(6px);
 }
 
 .menu-list {
