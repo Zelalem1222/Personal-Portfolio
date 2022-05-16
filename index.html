@@ -7,23 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">   
+<script src="https://kit.fontawesome.com/f7e5caa7f7.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles.css">
     <title>Zelalem's Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
-            <a class="header-logo" href="">My Logo</a> 
-            <ul>
+                <a class="header-logo" href="">My Logo</a>
+            <ul class="desk-menu">
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <img src="images/Enabled.png" alt="menu">
+            
     </nav>
     </header>
     
-    <section class="background">
+    <section id="blur" class="background">
         <div>
             <h1>I’m Zelalem
                 Glad to see you!</h1>
@@ -78,8 +79,8 @@
             <div >
              <ul class="container">
                  <li><h3>CANOPY</h3></li>
-                 <li class="counter1"><img src="images/Counter.png" alt="Backend dev"> Backend Dev</li>
-                 <li class="counter2"><img src="images/Counter.png" alt="Year"> 2015</li>
+                 <li class="counter1 counter"><img src="images/Counter.png" alt="Backend dev"> Backend Dev</li>
+                 <li class="counter2 counter"><img src="images/Counter.png" alt="Year"> 2015</li>
              </ul>
             </div>
             <p>A daily selection of privately personalized reads; 
@@ -144,7 +145,7 @@
 
     <section class="works-desktop">
      <div class="cards-desktop">
-        <div class="card-1-desktop">
+        <div class="card-1-desktop card-d-1">
             <img class="snapshot-desktop1" src="images/Snapshoot-Portfolio-desktop.png" alt="work-desktop-1">
             <div class="description">
               <h2>Tonic</h2>  
@@ -169,7 +170,7 @@
               
          </div>
 
-         <div class="card-2-desktop">
+         <div class="card-2-desktop card-d">
             <img class="snapshot-desktop2" src="images/Snapshoot-Portfolio-desktop-2.png" alt="work-desktop-2">
             <div class="description">
               <h2>Multi-Post Stories</h2>  
@@ -194,7 +195,7 @@
             </div>  
          </div>
 
-         <div class="card-3-desktop">
+         <div class="card-3-desktop card-d-1">
             <img class="snapshot-desktop3" src="images/Snapshoot-Portfolio-desktop3.jpg" alt="work-desktop-3">
             <div class="description">
               <h2>Facebook 360</h2>  
@@ -220,7 +221,7 @@
             <img class="hand-cursor" src="images/hand-cursor-1.png" alt=""> 
          </div>
            
-         <div class="card-4-desktop">
+         <div class="card-4-desktop card-d">
             <img class="snapshot-desktop4" src="images/Snapshoot-Porfolio-desktop4.png" alt="work-desktop-4">
             <div class="description">
               <h2>Uber Navigation</h2>  
@@ -249,7 +250,7 @@
      </div>
     </section>
     
-    <section class="about">
+    <section id="about" class="about">
         <div class="about-partition">
             <div class="intro">
                 <h2>About Myself</h2>
@@ -300,8 +301,9 @@
         </div>
         
     </section>
-    <section class="contact-form">
-        <div>
+    <section id="footer" class="contact-form">
+        
+        <div >
             <h2>Contact Me</h2>
             <p>If you have an application you are interested in developing,
                  a feature that you need built or a project that needs coding. 

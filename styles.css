@@ -9,6 +9,7 @@ body {
   background: #fff;
   position: absolute;
   height: 718px;
+  width: 100%;
   padding-left: 0;
   margin-left: 0;
   margin-top: 0;
@@ -22,7 +23,6 @@ body {
   margin-top: 50px;
   display: flex;
   height: 600px;
-  /* width: 380px; */
 }
 
 .background h1 {
@@ -89,8 +89,57 @@ header nav {
   padding: 20px 0 0;
 }
 
-header ul li a {
+.desk-menu {
   display: none;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  background-color: #6070ff;
+  width: 100vw;
+  opacity: 60%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+body.scroll {
+  overflow-y: hidden !important;
+}
+
+.background#blur.active {
+  filter: blur(10px);
+}
+
+.menu-list {
+  padding-right: 20px;
+}
+
+.menu-list:hover {
+  cursor: pointer;
+}
+
+.popup ul {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-top: 50px;
+}
+
+.close {
+  color: #fff;
+  font-size: 1.5em;
+  margin-left: 347px;
+  margin-top: 27px;
+}
+
+.popup ul a {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .works-mobile {
@@ -100,6 +149,7 @@ header ul li a {
   margin-left: 0;
   padding-left: 25px;
 }
+
 .card {
   width: 290px;
   display: flex;
@@ -123,7 +173,6 @@ header ul li a {
   line-height: 33px;
   margin: 16px 0 0;
 }
-
 
 .works-desktop {
   display: none;
@@ -153,14 +202,7 @@ header ul li a {
   margin: 4px 0;
 }
 
-.container .counter1 {
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
-  color: #7a869a;
-}
-
-.container .counter2 {
+.container .counter {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -195,7 +237,6 @@ header ul li a {
   color: #344563;
 }
 
-
 button {
   width: 125px;
   height: 52px;
@@ -226,9 +267,8 @@ button:disabled {
   border: 1px solid #e5e5e5;
 }
 
-
 .about {
-  width: 324px;
+  width: 79%;
   height: 960px;
   padding: 60px 20px 0;
   border-top-right-radius: 70px;
@@ -365,7 +405,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   height: 740px;
-  width: 324px;
+  width: 79%;
   background-position: right;
   padding: 0 20px;
   text-align: center;
@@ -515,12 +555,15 @@ hr {
     padding: 0;
   }
 
-  header ul li {
+  .desk-menu {
+    display: inherit;
+  }
+
+  .desk-menu li {
     display: contents;
   }
 
-  header ul li a {
-    display: inline;
+  .desk-menu li a {
     text-decoration: none;
     margin: 15px;
     font-weight: 500;
@@ -529,7 +572,7 @@ hr {
     color: #344563;
   }
 
-  header nav img {
+  .mob-menu {
     display: none;
   }
 
@@ -566,10 +609,20 @@ hr {
     margin: 30px 0 0 40px;
   }
 
-  .card-1-desktop {
+  .card-d-1 {
     width: auto;
     display: flex;
     flex-direction: row;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 10px;
+  }
+
+  .card-d {
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
     padding: 16px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -591,16 +644,6 @@ hr {
     color: #344563;
   }
 
-  .card-2-desktop {
-    width: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 10px;
-  }
-
   .card-2-desktop h2 {
     color: #172b4d;
     font-weight: 700;
@@ -614,16 +657,6 @@ hr {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-  }
-
-  .card-3-desktop {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 10px;
   }
 
   .card-3-desktop h2 {
@@ -644,16 +677,6 @@ hr {
   .card-3-desktop button {
     background-color: #2230d2;
     color: #fff;
-  }
-
-  .card-4-desktop {
-    width: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 10px;
   }
 
   .card-4-desktop h2 {
