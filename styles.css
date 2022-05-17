@@ -183,7 +183,7 @@ body.scroll {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px 0 0;
-  width: 250px;
+  width: 270px;
   align-items: baseline;
   margin: 15px 0 10px;
 }
@@ -592,6 +592,7 @@ hr {
     display: none;
   }
 
+
   /* work-desktop */
 
   .works-desktop {
@@ -619,14 +620,9 @@ hr {
     border-radius: 10px;
   }
 
-  .card-d {
-    width: auto;
-    display: flex;
+  #work-2,
+  #work-4 {
     flex-direction: row-reverse;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 10px;
   }
 
   .card-1-desktop h2 {
@@ -674,11 +670,6 @@ hr {
     color: #344563;
   }
 
-  .card-3-desktop button {
-    background-color: #2230d2;
-    color: #fff;
-  }
-
   .card-4-desktop h2 {
     color: #172b4d;
     font-weight: 700;
@@ -720,11 +711,12 @@ hr {
 
   .languages {
     display: flex;
+    grid-column-gap: 10px;
     list-style: none;
     justify-content: space-between;
     padding: 3px;
     margin: 12px 0;
-    width: 200px;
+    width: 297px;
   }
 
   .languages li {
@@ -739,23 +731,15 @@ hr {
     background: #ebebff;
   }
 
-  .card-4-desktop .languages {
-    display: flex;
-    grid-column-gap: 10px;
-    list-style: none;
-    justify-content: space-between;
-    padding: 3px;
-    margin: 12px 0;
-    width: 297px;
-  }
 
-  .hand-cursor {
+  /* .hand-cursor {
+    display: none;
     position: absolute;
     width: 57px;
     height: 57px;
     top: 2270px;
     right: 220px;
-  }
+  } */
 
   .snapshot-desktop1 {
     transition: transform 0.5s;
