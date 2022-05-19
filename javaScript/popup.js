@@ -290,39 +290,7 @@ const displayMobPopup = (i) => {
 // const popMobModel = document.querySelector("mobile-project-container");
 
 
-const closePopupModal = () => {
-  popModel.style.display = "none";
-  body.style.overflow = "auto";
-};
 
-const closePopupMobModel = () => {
-  popMobModelMain.style.display = "none";
-  body.style.overflow = "auto";
-}
-
-document.querySelectorAll(".see-more").forEach((element) =>
-  element.addEventListener("click", () => {
-    displayPopupModal(element.getAttribute("data-index"));
-  })
-);
-
-document.querySelectorAll("#close").forEach((element) =>
-  element.addEventListener("click", () => {
-    closePopupModal(element.getAttribute("data-index"));
-  })
-);
-
-document.querySelectorAll(".see-project").forEach((element) => 
-    element.addEventListener("click" , () => {
-      displayMobPopup(element.getAttribute("data-index"));
-    })
-);
-
-document.querySelectorAll("#close-mob").forEach((element) => 
-  element.addEventListener('click' , () => {
-    closePopupMobModel(element.getAttribute("data-index"));
-  })
-);
 
 //  <ul class='languages'>
 //  ${popupTech2}
