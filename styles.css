@@ -214,6 +214,7 @@ body.scroll {
   list-style: none;
   padding: 3px;
   margin: 12px 0;
+  gap: 10px;
 }
 
 .languages li {
@@ -615,6 +616,7 @@ hr {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 10px;
+    gap: 15px;
   }
 
   #work-2,
