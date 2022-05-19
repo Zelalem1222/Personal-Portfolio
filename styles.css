@@ -93,17 +93,6 @@ header nav {
   display: none;
 }
 
-/* .popup {
-  position: fixed;
-  z-index: 1;
-  background-color: #6070ff;
-  width: 100vw;
-  opacity: 60%;
-  bottom: 0;
-  top: 0;
-  left: 0;
-} */
-
 body.scroll {
   overflow-y: hidden !important;
 }
@@ -517,10 +506,6 @@ hr {
   text-decoration: none;
 }
 
-.popup-mobile {
-  
-}
-
 .mobile-project-container {
   display: none;
   z-index: 10;
@@ -540,7 +525,6 @@ hr {
   background: #fff;
   margin-top: 20px;
   border-right-width: 20px;
-  /* margin-right: 20px; */
   margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -562,17 +546,13 @@ hr {
   cursor: pointer;
 }
 
-.close-mob-project:hover{
+.close-mob-project:hover {
   color: #7a869a;
 }
 
 .display-class {
   display: block;
 }
-
-/* .hero-image {
-  width: 375px;
-} */
 
 @media only screen and (min-width: 768px) {
   body {
@@ -728,13 +708,13 @@ hr {
     grid-column-gap: 10px;
   }
 
-  .project-img:hover {
-    transform: translateY(-10px);
-  }
-
   .project-img {
     width: 544px;
     transition: transform 0.5s;
+  }
+
+  .project-img:hover {
+    transform: translateY(-10px);
   }
 
   .close-project {
@@ -742,13 +722,14 @@ hr {
     font-size: 24px;
     cursor: pointer;
   }
-  .close-project:hover{
+
+  .close-project:hover {
     color: #396df2;
   }
 
- .display-class {
-   display: block;
- }
+  .display-class {
+    display: block;
+  }
 
   .project-container {
     display: none;
@@ -761,7 +742,7 @@ hr {
     top: 0;
     left: 0;
   }
-  
+
   /* About-desktop */
 
   .about {
@@ -838,6 +819,7 @@ hr {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 10px;
+
     /* height: 100%; */
     margin: 77px 142px;
   }
@@ -853,12 +835,12 @@ hr {
     justify-content: space-between;
   }
 
-  .popup-footer{
+  .popup-footer {
     display: flex;
     flex-direction: row;
   }
 
-  .popup-footer-right{
+  .popup-footer-right {
     display: flex;
     flex-direction: column;
   }
@@ -891,7 +873,7 @@ hr {
   }
 
   .contact-form div {
-    padding: 25px 0 0 ;
+    padding: 25px 0 0;
     width: 500px;
   }
 
@@ -900,7 +882,7 @@ hr {
     bottom: 15px;
     width: 350px;
   }
-  
+
   .contact-form h2 {
     margin-bottom: 10px;
   }
