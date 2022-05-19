@@ -212,10 +212,8 @@ body.scroll {
 .languages {
   display: flex;
   list-style: none;
-  justify-content: space-between;
   padding: 3px;
   margin: 12px 0;
-  width: 200px;
 }
 
 .languages li {
@@ -249,6 +247,7 @@ button {
   color: #396df2;
   background: #fff;
   transition: background 0.5s;
+  cursor: pointer;
 }
 
 button:hover {
@@ -379,15 +378,16 @@ button:disabled {
   padding-left: 20px;
 }
 
-.languages-used .union-2 {
+.languages-used .union {
   height: 12px;
   width: 12px;
+}
+
+.languages-used .union-2 {
   padding-left: 130px;
 }
 
 .languages-used .union-3 {
-  height: 12px;
-  width: 12px;
   padding-left: 205px;
 }
 
@@ -413,8 +413,15 @@ button:disabled {
 }
 
 .contact-form div {
-  padding: 50px 12px 10px;
-  margin-top: 22px;
+  padding: 13px 0 0;
+  margin-top: 0;
+}
+
+#div-error {
+  position: relative;
+  bottom: 15px;
+  width: 324px;
+  color: darksalmon;
 }
 
 .contact-form h2 {
@@ -460,13 +467,7 @@ textarea {
   font: inherit;
   width: 140px;
   height: 47px;
-  border-radius: 10px;
-  border: 1px solid #396df2;
-  font-weight: 500;
-  font-size: 17px;
   line-height: 10px;
-  color: #396df2;
-  background: #fff;
   margin: 6px 0 10px;
   transition: background 0.5s;
 }
@@ -517,7 +518,7 @@ hr {
     right: 0;
     width: auto;
     height: 738px;
-    padding: 1px 50px;
+    padding: 1px 142px;
     border-bottom-left-radius: 40;
     overflow-x: auto;
   }
@@ -606,10 +607,6 @@ hr {
     grid-row-gap: 90px;
   }
 
-  .description {
-    margin: 30px 0 0 40px;
-  }
-
   .card-d-1 {
     width: auto;
     display: flex;
@@ -625,7 +622,7 @@ hr {
     flex-direction: row-reverse;
   }
 
-  .card-1-desktop h2 {
+  .card-d-1 h2 {
     color: #172b4d;
     font-weight: 700;
     font-size: 40px;
@@ -633,52 +630,7 @@ hr {
     margin: 16px 0 0;
   }
 
-  .card-1-desktop p {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  .card-2-desktop h2 {
-    color: #172b4d;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 33px;
-    margin: 16px 0 0;
-  }
-
-  .card-2-desktop p {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  .card-3-desktop h2 {
-    color: #172b4d;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 33px;
-    margin: 16px 0 0;
-  }
-
-  .card-3-desktop p {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  .card-4-desktop h2 {
-    color: #172b4d;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 33px;
-    margin: 16px 0 0;
-  }
-
-  .card-4-desktop p {
+  .card-d-1 p {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -710,64 +662,43 @@ hr {
   }
 
   .languages {
-    display: flex;
     grid-column-gap: 10px;
-    list-style: none;
-    justify-content: space-between;
-    padding: 3px;
-    margin: 12px 0;
-    width: 297px;
   }
 
-  .languages li {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    color: #6070ff;
-    text-align: center;
-    height: 20px;
-    padding: 5px 10px;
-    border-radius: 11px;
-    background: #ebebff;
-  }
-
-
-  /* .hand-cursor {
-    display: none;
-    position: absolute;
-    width: 57px;
-    height: 57px;
-    top: 2270px;
-    right: 220px;
-  } */
-
-  .snapshot-desktop1 {
-    transition: transform 0.5s;
-  }
-
-  .snapshot-desktop1:hover {
+  .project-img:hover {
     transform: translateY(-10px);
   }
 
-  .snapshot-desktop2,
-  .snapshot-desktop3,
-  .snapshot-desktop4 {
+  .project-img {
     width: 544px;
     transition: transform 0.5s;
   }
 
-  .snapshot-desktop2:hover {
-    transform: translateY(-10px);
+  .close-project {
+    color: cadetblue;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .close-project:hover{
+    color: #396df2;
   }
 
-  .snapshot-desktop3:hover {
-    transform: translateY(-10px);
-  }
+ .display-class {
+   display: block;
+ }
 
-  .snapshot-desktop4:hover {
-    transform: translateY(-10px);
+  .project-container {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    background: rgba(107, 110, 116, 0.7);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
   }
-
+  
   /* About-desktop */
 
   .about {
@@ -836,6 +767,39 @@ hr {
     padding-left: 610px;
   }
 
+  .popup-item {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 10px;
+    /* height: 100%; */
+    margin: 77px 142px;
+  }
+
+  .popup-item .hero-image {
+    width: 100%;
+    margin-bottom: 36px;
+  }
+
+  .popup-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .popup-footer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup-footer-right{
+    display: flex;
+    flex-direction: column;
+  }
+
   .about-resume-desktop {
     display: initial;
     width: 147px;
@@ -864,10 +828,16 @@ hr {
   }
 
   .contact-form div {
+    padding: 25px 0 0 ;
     width: 500px;
-    margin-top: 85px;
   }
 
+  #div-error {
+    position: relative;
+    bottom: 15px;
+    width: 350px;
+  }
+  
   .contact-form h2 {
     margin-bottom: 10px;
   }
