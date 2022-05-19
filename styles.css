@@ -502,8 +502,17 @@ hr {
   background-color: #0d151e;
 }
 
+.see-more {
+  padding: 1px 0;
+  width: 142px;
+}
+
 .see-more .see {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   text-decoration: none;
+  color: #396df2;
+  padding-right: 20px;
 }
 
 .mobile-project-container {
@@ -515,20 +524,19 @@ hr {
   height: 100%;
   overflow: auto;
   top: 0;
-  padding-left: 30px;
 }
 
 .popup-item-mob {
   display: flex;
   flex-direction: column;
-  width: 375px;
+  width: 300px;
   background: #fff;
   margin-top: 20px;
   border-right-width: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .popup-mob-header {
@@ -542,8 +550,10 @@ hr {
 }
 
 .close-mob-project {
-  color: cadetblue;
+  color: #67798e;
   cursor: pointer;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .close-mob-project:hover {
@@ -740,6 +750,14 @@ hr {
     overflow: auto;
     top: 0;
     left: 0;
+  }
+
+  .see-more {
+    width: 120px;
+  }
+
+  .see-more .see {
+    padding-right: 7px;
   }
 
   /* About-desktop */
