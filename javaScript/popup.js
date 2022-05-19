@@ -209,9 +209,9 @@ const displayPopupModal = (i) => {
    ${popupTech2}
   </ul>
   <div class="btn-tags">
-  <button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><i class="fa fa-external-link" aria-hidden="true"></i>
+  <button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><img src="images/icon.png" />
   </button>
-  <button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><i class="fa fa-github-square" aria-hidden="true"></i>
+  <button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><img src="images/vector-github.png" />
   </button>
   </div>
     </div> 
@@ -266,9 +266,9 @@ const displayMobPopup = (i) => {
  </ul>
 
 <div class="btn-tags">
-<button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><i class="fa fa-external-link" aria-hidden="true"></i>
+<button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><img src="images/icon.png" />
 </button>
-<button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><i class="fa fa-github-square" aria-hidden="true"></i>
+<button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><img src="images/vector-github.png" />
 </button>
 </div>
   </div> 

@@ -512,7 +512,8 @@ hr {
   font-style: normal;
   text-decoration: none;
   color: #396df2;
-  padding-right: 20px;
+  padding-right: 12px;
+  font-size: 16px;
 }
 
 .mobile-project-container {
@@ -753,11 +754,11 @@ hr {
   }
 
   .see-more {
-    width: 120px;
+    width: 150px;
   }
 
   .see-more .see {
-    padding-right: 7px;
+    padding-right: 15px;
   }
 
   /* About-desktop */
@@ -860,6 +861,11 @@ hr {
   .popup-footer-right {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .btn-tags {
+    width: 315px;
   }
 
   .about-resume-desktop {
