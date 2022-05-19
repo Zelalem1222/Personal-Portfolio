@@ -102,6 +102,7 @@ const works = [
   },
 ];
 
+
 for (let i = 0; i < works.length; i++) {
   let technology = "";
   let experianceList = "";
@@ -137,6 +138,30 @@ for (let i = 0; i < works.length; i++) {
  </div>
    
 </div>`;
+
+ document.querySelector(".cards").innerHTML +=`
+ <div class="card-${works[i].id} card"> 
+ <img class="snapshot-mobile${works[i].id}"  src='${works[i].image}' />
+ <div>
+   <h2>${works[i].name}</h2>
+   <div> 
+   <ul class="container">
+     ${experianceList}
+     </ul>
+   </div>
+   <p>
+     ${works[i].description}
+   </p>
+   <div>
+     <ul class="languages">
+     ${technology}
+     </ul>
+   </div>
+   <button type="button" class="see-project" data-index="${i}">See Project</button>
+ </div>
+ </div>
+ `;
+
 }
 
 const popModel = document.querySelector(".project-container");
@@ -169,19 +194,14 @@ const displayPopupModal = (i) => {
     <h2>${works[i].name}</h2>
     <ul class="container">
     ${experianceList}
- </ul>
-    </div>
-   
- <i  onclick="closePopupModal()" class="fa-solid fa-xmark close-project" id="close"></i>
+    </ul>
+    </div> 
+    <i onclick="closePopupModal()" class="fa-solid fa-xmark close-project" id="close"></i>
     </div>
     <img src='${works[i].image}' class="hero-image">
-
-    <div class='description'>
-    
+    <div class='description'> 
     <div>
-   
     </div>
-  
     <div class="popup-footer">
     <p>${works[i].popDescription}</p>
     <div class="popup-footer-right">
@@ -191,20 +211,94 @@ const displayPopupModal = (i) => {
    <ul class='languages'>
    ${popupTech2}
   </ul>
+  <div class="btn-tags">
+  <button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><i class="fa fa-external-link" aria-hidden="true"></i>
+  </button>
+  <button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><i class="fa fa-github-square" aria-hidden="true"></i>
+  </button>
+  </div>
+    </div> 
     </div>
-   
-    </div>
- 
     </div>
     </div>
- `;
+   `;
+  
   popModel.style.display = "block";
 };
+
+
+const popMobModel = document.querySelector(".popup-mobile");
+const popMobModelMain = document.querySelector(".mobile-project-container")
+const displayMobPopup = (i) => {
+  let popupTech1 = "";
+  let popupTech2 = "";
+  let experianceList = "";
+
+  for (let j = 0; j < works[i].popuplanguage.length; j++) {
+    if (j <= 3) {
+      popupTech1 += `<li >${works[i].popuplanguage[j]}</li>`;
+    } else {
+      popupTech2 += `<li >${works[i].popuplanguage[j]}</li>`;
+    }
+  }
+
+  for (let k = 0; k < works[i].experiance.length; k++) {
+    experianceList +=
+      k === 0
+        ? `<li><h3>${works[i].experiance[k]}</h3></li>`
+        : `<li class="counter"><img src="images/Counter.png" alt="Backend dev">${works[i].experiance[k]}</li>`;
+  }
+
+  body.style.overflow = "hidden";
+  
+  document.querySelector(".mobile-project-container").innerHTML = `
+  <div class='popup-item-mob ' id='works-${works[i].id}'>
+  <div class='popup-mob-header'>
+  <div class="popup-header-left">
+  <h2>${works[i].name}</h2>
+  <ul class="container">
+  ${experianceList}
+  </ul>
+  </div> 
+  <i onclick="closePopupMobModel()" class="fa-solid fa-xmark close-mob-project" id="close-mob"></i>
+  </div>
+  <img src='${works[i].image}' class="hero-image">
+  <div class='description'> 
+  <div>
+  </div>
+  <div class="popup-footer">
+  <p>${works[i].popDescription}</p>
+  <div class="popup-footer-right">
+  <ul class='languages'>
+  ${popupTech1}
+ </ul>
+
+<div class="btn-tags">
+<button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><i class="fa fa-external-link" aria-hidden="true"></i>
+</button>
+<button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><i class="fa fa-github-square" aria-hidden="true"></i>
+</button>
+</div>
+  </div> 
+  </div>
+  </div>
+  </div>
+ `;
+//  const popMobModel = document.querySelector("mobile-project-container");
+ popMobModelMain.style.display = "block";
+}
+// const popMobModel = document.querySelector("mobile-project-container");
+
 
 const closePopupModal = () => {
   popModel.style.display = "none";
   body.style.overflow = "auto";
 };
+
+const closePopupMobModel = () => {
+  popMobModelMain.style.display = "none";
+  body.style.overflow = "auto";
+}
 
 document.querySelectorAll(".see-more").forEach((element) =>
   element.addEventListener("click", () => {
@@ -217,3 +311,19 @@ document.querySelectorAll("#close").forEach((element) =>
     closePopupModal(element.getAttribute("data-index"));
   })
 );
+
+document.querySelectorAll(".see-project").forEach((element) => 
+    element.addEventListener("click" , () => {
+      displayMobPopup(element.getAttribute("data-index"));
+    })
+);
+
+document.querySelectorAll("#close-mob").forEach((element) => 
+  element.addEventListener('click' , () => {
+    closePopupMobModel(element.getAttribute("data-index"));
+  })
+);
+
+//  <ul class='languages'>
+//  ${popupTech2}
+// </ul>
