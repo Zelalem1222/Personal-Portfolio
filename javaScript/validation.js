@@ -1,6 +1,5 @@
 const form = document.getElementById('form');
 const divError = document.getElementById('div-error');
-const errorMsg = document.querySelector('error-msg');
 const emailForm = document.getElementById('email');
 
 form.addEventListener('submit', (e) => {
@@ -12,5 +11,4 @@ form.addEventListener('submit', (e) => {
     divError.style.display = 'flex';
     divError.innerHTML = 'Enter the email in lower case to continue';
   }
- 
 });
