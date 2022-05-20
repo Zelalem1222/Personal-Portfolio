@@ -244,7 +244,7 @@ const displayMobPopup = (i) => {
   body.style.overflow = 'hidden';
 
   document.querySelector('.mobile-project-container').innerHTML = `
-  <div class='popup-item-mob ' id='works-${works[i].id}'>
+  <div class='popup-item-mob' id='works-${works[i].id}'>
   <div class='popup-mob-header'>
   <div class="popup-header-left">
   <h2>${works[i].name}</h2>
