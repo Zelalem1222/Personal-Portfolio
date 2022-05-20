@@ -105,25 +105,13 @@ body.scroll {
   filter: blur(10px);
 }
 
-.menu-list {
-  /* padding-right: 20px;
-  margin-left: 75%;
-  margin-top: 10px; */
-}
-
 .menu-list:hover {
   cursor: pointer;
 }
 
-
 .mob-menu {
   display: block;
-  
   z-index: 1;
-  /* right: 0;
-  bottom: 0;
-  top: 0;
-  left: 0; */
 }
 
 .popup {
@@ -131,10 +119,10 @@ body.scroll {
   opacity: 70%;
   position: fixed;
   height: 100vh;
-  margin-top: 0px;
-  right: 0px;
-  bottom: 0px;
-  top: 0px;
+  margin-top: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
   left: 0;
 }
 
@@ -143,7 +131,6 @@ body.scroll {
   flex-direction: column;
   gap: 17px;
   padding-left: 37px;
-
 }
 
 .close-menu {

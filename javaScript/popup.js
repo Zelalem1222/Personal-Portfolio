@@ -25,7 +25,6 @@ menu.addEventListener('click', () => {
   blur.classList.add('active');
   main.appendChild(popup);
 
-
   const close = document.querySelector('.close-menu');
   close.addEventListener('click', () => {
     main.removeChild(popup);
