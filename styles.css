@@ -416,7 +416,7 @@ button:disabled {
 }
 
 form div {
-  padding: 13px 0 0;
+  padding: 0 0 0;
   margin-top: 0;
 }
 
@@ -424,7 +424,7 @@ form div {
   position: relative;
   bottom: 15px;
   width: 324px;
-  color: darksalmon;
+  color: red;
 }
 
 .contact-form h2 {
@@ -454,7 +454,7 @@ form div {
 form {
   display: flex;
   flex-direction: column;
-  grid-row-gap: 14px;
+  grid-row-gap: 15px;
 }
 
 textarea {
