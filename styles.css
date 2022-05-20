@@ -101,29 +101,55 @@ body.scroll {
   overflow-y: hidden !important;
 }
 
-.background#blur.active {
+.active {
   filter: blur(10px);
 }
 
 .menu-list {
-  padding-right: 20px;
+  /* padding-right: 20px;
+  margin-left: 75%;
+  margin-top: 10px; */
 }
 
 .menu-list:hover {
   cursor: pointer;
 }
 
+
+.mob-menu {
+  display: block;
+  
+  z-index: 1;
+  /* right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0; */
+}
+
+.popup {
+  background: #6070ff;
+  opacity: 70%;
+  position: fixed;
+  height: 100vh;
+  margin-top: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+}
+
 .popup ul {
   display: flex;
   flex-direction: column;
   gap: 17px;
-  padding-top: 50px;
+  padding-left: 37px;
+
 }
 
-.close {
+.close-menu {
   color: #fff;
   font-size: 1.5em;
-  margin-left: 347px;
+  margin-left: 86%;
   margin-top: 27px;
 }
 

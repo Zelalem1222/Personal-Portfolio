@@ -12,7 +12,7 @@ menu.addEventListener('click', () => {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `
-    <i class="fa-solid fa-xmark close"></i>
+    <i class="fa-solid fa-xmark close-menu"></i>
     <ul class="menu-tags">
     <li><a class="menu-link1 menu-portfolio" href="">Portfolio</a></li>
     <li><a class="menu-link2 menu-about" href="#about">About</a></li>
@@ -25,7 +25,8 @@ menu.addEventListener('click', () => {
   blur.classList.add('active');
   main.appendChild(popup);
 
-  const close = document.querySelector('.close');
+
+  const close = document.querySelector('.close-menu');
   close.addEventListener('click', () => {
     main.removeChild(popup);
     overFlow.classList.remove('scroll');
