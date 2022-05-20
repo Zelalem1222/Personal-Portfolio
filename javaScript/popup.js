@@ -1,7 +1,7 @@
-const navHead = document.querySelector('nav');
+const nav = document.querySelector('nav');
 const main = document.createElement('div');
 main.className = 'mob-menu';
-navHead.appendChild(main);
+nav.appendChild(main);
 
 main.innerHTML = `
 <img class="menu-list" src="images/Enabled.png" alt="menu">
@@ -209,7 +209,7 @@ const displayPopupModal = (i) => {
    ${popupTech2}
   </ul>
   <div class="btn-tags">
-  <button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><img src="images/icon.png" />
+  <button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><img src="images/Icon.png" />
   </button>
   <button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><img src="images/vector-github.png" />
   </button>
@@ -266,7 +266,7 @@ const displayMobPopup = (i) => {
  </ul>
 
 <div class="btn-tags">
-<button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><img src="images/icon.png" />
+<button class="see-more"><a class="see"  href="${works[i].seeLive}">See Live</a><img src="images/Icon.png" />
 </button>
 <button  class="see-more"><a class="see" href="${works[i].seeSource}">See Source</a><img src="images/vector-github.png" />
 </button>
