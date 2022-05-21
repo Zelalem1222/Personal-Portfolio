@@ -11,7 +11,7 @@ function storeData() {
   const user = {
     nameValue,
     emailValue,
-    message,
+    messageValue,
   };
 
   if (nameValue && emailValue && messageValue) {
