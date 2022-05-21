@@ -20,7 +20,11 @@ function storeData() {
   }
 }
 
+window.addEventListener('load', () => {
+  const parseData = JSON.parse(localStorage.getItem('user'));
+  fullName.value = parseData.nameValue;
+  email.value = parseData.emailValue;
+  message.value = parseData.messageValue;
+});
+
 button.addEventListener('click', storeData);
-fullName.addEventListener('keyup', storeData);
-email.addEventListener('keyup', storeData);
-message.addEventListener('keyup', storeData);
