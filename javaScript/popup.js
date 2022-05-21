@@ -1,5 +1,6 @@
 const nav = document.querySelector('nav');
 const main = document.createElement('div');
+const about = document.querySelector(".about");
 main.className = 'mob-menu';
 nav.appendChild(main);
 
@@ -169,8 +170,8 @@ const displayPopupModal = (i) => {
   let popupTech2 = '';
   let experianceList = '';
 
-  for (let j = 0; j < works[i].popuplanguage.length; j += 1) {
-    if (j <= 3) {
+  for (let j = 0; j < works[i].popuplanguage.length; j +=1){
+    if (j <== 3) {
       popupTech1 += `<li >${works[i].popuplanguage[j]}</li>`;
     } else {
       popupTech2 += `<li >${works[i].popuplanguage[j]}</li>`;
