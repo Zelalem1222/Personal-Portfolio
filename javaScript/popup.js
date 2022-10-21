@@ -54,51 +54,59 @@ menu.addEventListener('click', () => {
 const works = [
   {
     id: 1,
-    name: 'Tonic',
-    experiance: ['CANOPY', 'Backend Dev', '2015'],
+    name: 'Budget App',
+    experiance: ['CANOPY', 'Backend Dev', '2022'],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
+      'This app is a  web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
+    languages: ['Html', 'Ruby on Rails', 'CSS', 'Bootstrap'],
+    popuplanguage: ['html', 'css', 'javaScript', 'postgresql', 'ruby', 'bootstrap'],
     popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    image: 'images/Snapshoot-Portfolio-desktop.png',
+      'This project is created as part of the rails capstone at Microverse. This app is a web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
+    image: 'images/budget-app-4.png',
+    seeLive: "https://pacific-wave-62950.herokuapp.com/",
+    seeSource: "https://github.com/Zelalem1222/Budget-app",
   },
   {
     id: 2,
-    name: 'Multi-Post Stories',
-    experiance: ['FACEBOOK', 'Backend Dev', '2015'],
+    name: 'Cryptocurrency Tracker',
+    experiance: ['Crypto', 'Frontend Dev', '2021'],
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
+      'In this App, I worked with the real live data from the Crypto API. It displayes a list of different cryptocurrencies and also it showes a detailed information about each coin.',
+    languages: ['html', 'Redux', 'css', 'react'],
+    popuplanguage: ['html', 'css', 'javaScript', 'react', 'redux', 'bootstrap'],
     popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    image: 'images/Snapshoot-Portfolio-desktop-2.png',
+      'In this App, I worked with the real live data from the Crypto API. It displayes a list of different cryptocurrencies and also it showes a detailed information about each coin. I used redux to manage the state of the app.',
+    image: 'images/crypto-3.png',
+    seeLive: 'https://crypto-tracker1222.netlify.app/',
+    seeSource: 'https://github.com/Zelalem1222/Crypto-trarcker'
   },
   {
     id: 3,
-    name: 'Facebook 360',
-    experiance: ['Facebook', 'Backend Dev', '2015'],
+    name: 'Book Store',
+    experiance: ['BookStore', 'Frontend Dev', '2021'],
     description:
-      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
+      'Store your favorite books in this app. You can add, remove, and update your books. You can also filter your books by category.',
+    languages: ['html', 'React', 'css', 'Redux'],
+    popuplanguage: ['html', 'css', 'javaScript', 'React', 'Redux', 'bootstrap'],
     popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    image: 'images/Snapshoot-Portfolio-desktop3.jpg',
+      'This app helps to store your favorite books along side with your progress. You can also remove any book you want from the list. I used redux to manage the app state.',
+    image: 'images/bookstore-1.png',
+    seeLive: 'https://book-store-react-app22.netlify.app/',
+    seeSource: 'https://github.com/Zelalem1222/Book-store'
   },
   {
     id: 4,
-    name: 'Uber Navigation',
-    experiance: ['Uber', 'Backend Dev', '2015'],
+    name: 'Todo List',
+    experiance: ['Todo', 'Frontend Dev', '2021'],
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
+      'A todo list application that includes adding a new list and deleting the unwanted list. ',
+    languages: ['html', 'Webpack', 'css', 'javaScript'],
+    popuplanguage: ['html', 'css', 'javaScript', 'local storage', 'webpack', 'bootstrap'],
     popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum',
-    image: 'images/Snapshoot-Porfolio-desktop4.png',
+      'A todo list application that includes adding a new list and deleting the unwanted list. I used local storage to store the data.',
+    image: 'images/todo-list.png',
+    seeLive: 'https://zelalem1222.github.io/To-do-list-App/' , 
+    seeSource: 'https://github.com/Zelalem1222/To-do-list-App'
   },
 ];
 

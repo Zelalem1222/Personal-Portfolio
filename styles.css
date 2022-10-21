@@ -222,11 +222,12 @@ body.scroll {
 }
 
 .languages {
-  display: flex;
-  list-style: none;
+  display: grid;
+  /* list-style: none; */
   padding: 3px;
-  margin: 12px 0;
-  gap: 5px;
+  /* margin: 12px 0; */
+  gap: 3px;
+  grid-template-columns: auto auto auto auto;
 }
 
 .languages li {
@@ -744,6 +745,7 @@ hr {
 
   .languages {
     grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
   }
 
   .project-img {
