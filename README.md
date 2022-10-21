@@ -1,18 +1,26 @@
 
 # Personal-Portfolio
 
- Personal Portfolio using html and css.
+ Portfolio including a list of projects I did and also resume.It is fully responsive and built using HTML, CSS, JavaScript and Bootstrap.
 
 # Built With
-  Html and css
+  - Html 
+  - CSS
+  - JavaScript
+  - Bootstrap
  
 # Live Demo 
   you can follow the link to see my portfolio work.
   This is the live deployment [link](https://zelalem1222.github.io/Personal-Portfolio/) of my project
 
 
-# Author
- GitHub:@github/zelalem1222
+## Author
+
+👤 **Zelalem Fissha**
+
+- GitHub: [@github](https://github.com/Zelalem1222)
+- Twitter: [@twitter](https://twitter.com/Zelalem52236790)
+- LinkedIn: [LinkedIn](https://twitter.com/Zelalem52236790)
 
 # Contributin
 
