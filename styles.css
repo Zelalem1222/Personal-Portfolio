@@ -334,6 +334,11 @@ button:disabled {
   background: #fff;
 }
 
+.about-resume-mobile a {
+  text-decoration: none;
+  color: #396df2;
+}
+
 .about-resume-desktop {
   display: none;
 }
@@ -911,6 +916,11 @@ hr {
     line-height: 10px;
     color: #396df2;
     background: #fff;
+  }
+
+  .about-resume-desktop a {
+    text-decoration: none;
+    color: #396df2;
   }
 
   .about-resume-mobile {

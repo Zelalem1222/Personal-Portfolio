@@ -68,7 +68,7 @@ const works = [
   },
   {
     id: 2,
-    name: 'Cryptocurrency Tracker',
+    name: 'Crypto Tracker',
     experiance: ['Crypto', 'Frontend Dev', '2021'],
     description:
       'In this App, I worked with the real live data from the Crypto API. It displayes a list of different cryptocurrencies and also it showes a detailed information about each coin.',
