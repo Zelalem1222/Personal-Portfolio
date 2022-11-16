@@ -410,10 +410,10 @@ button:disabled {
   padding-left: 205px;
 }
 
-.skills,
+/* .skills,
 .frameworks {
   border-bottom: 1px solid #dfe1e6;
-}
+} */
 
 .contact-form {
   background-image: url("images/contact-form-shape-mobile.png");
@@ -595,6 +595,35 @@ hr {
 .display-class {
   display: block;
 }
+
+.accordion {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.accordion img {
+  margin-left: auto;
+  transition: all 0.4s ease-in-out;
+
+}
+
+
+
+.actively .imgage80 {
+  transform: rotate(90deg);
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -845,9 +874,9 @@ hr {
     padding-left: 10px;
   }
 
-  .languages-used h3 {
+  /* .languages-used h3 {
     width: 100%;
-  }
+  } */
 
   .languages-used ul {
     width: min-content;
@@ -979,6 +1008,7 @@ hr {
   hr {
     display: none;
   }
+
 }
 
 @keyframes slidein {
