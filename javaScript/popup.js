@@ -1,3 +1,18 @@
+const accordion = document.getElementsByClassName('accordion');
+
+for (let i = 0; i < accordion.length; i += 1) {
+  accordion[i].addEventListener('click', function () {
+    this.classList.toggle('active');
+    const panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = `${panel.scrollHeight}px`;
+    }
+  });
+}
+
+
 const nav = document.querySelector('nav');
 const main = document.createElement('div');
 main.className = 'mob-menu';
@@ -307,3 +322,4 @@ document.querySelectorAll('.see-project').forEach((element) => element.addEventL
 document.querySelectorAll('#close-mob').forEach((element) => element.addEventListener('click', () => {
   closePopupMobModel(element.getAttribute('data-index'));
 }));
+
