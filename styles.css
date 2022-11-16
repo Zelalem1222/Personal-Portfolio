@@ -140,6 +140,11 @@ body.scroll {
   margin-top: 27px;
 }
 
+.about-resume-mobile a {
+  text-decoration: none;
+  color: #396df2;
+}
+
 .popup ul a {
   font-weight: 600;
   font-size: 32px;
@@ -200,6 +205,11 @@ body.scroll {
   margin: 15px 0 10px;
 }
 
+.accordion img {
+  margin-left: auto;
+  transition: all 0.4s ease-in-out;
+}
+
 .container li img {
   margin: 0 5px;
 }
@@ -223,8 +233,10 @@ body.scroll {
 
 .languages {
   display: grid;
+
   /* list-style: none; */
   padding: 3px;
+
   /* margin: 12px 0; */
   gap: 3px;
   grid-template-columns: auto auto auto auto;
@@ -334,11 +346,6 @@ button:disabled {
   background: #fff;
 }
 
-.about-resume-mobile a {
-  text-decoration: none;
-  color: #396df2;
-}
-
 .about-resume-desktop {
   display: none;
 }
@@ -410,10 +417,9 @@ button:disabled {
   padding-left: 205px;
 }
 
-/* .skills,
 .frameworks {
   border-bottom: 1px solid #dfe1e6;
-} */
+}
 
 .contact-form {
   background-image: url("images/contact-form-shape-mobile.png");
@@ -605,14 +611,6 @@ hr {
   transition: 0.4s;
 }
 
-.accordion img {
-  margin-left: auto;
-  transition: all 0.4s ease-in-out;
-
-}
-
-
-
 .actively .imgage80 {
   transform: rotate(90deg);
 }
@@ -624,8 +622,6 @@ hr {
   transition: max-height 0.2s ease-out;
 }
 
-
-
 @media only screen and (min-width: 768px) {
   body {
     left: 0;
@@ -636,7 +632,6 @@ hr {
     border-bottom-left-radius: 40;
     overflow-x: auto;
   }
-
 
   .background {
     background-image: url("images/Header-desktop.png");
@@ -676,6 +671,11 @@ hr {
 
   .desk-menu li {
     display: contents;
+  }
+
+  .about-resume-desktop a {
+    text-decoration: none;
+    color: #396df2;
   }
 
   .desk-menu li a {
@@ -947,10 +947,7 @@ hr {
     background: #fff;
   }
 
-  .about-resume-desktop a {
-    text-decoration: none;
-    color: #396df2;
-  }
+
 
   .about-resume-mobile {
     display: none;
@@ -1008,7 +1005,6 @@ hr {
   hr {
     display: none;
   }
-
 }
 
 @keyframes slidein {
