@@ -78,7 +78,7 @@ const works = [
     popDescription:
       'This project is created as part of the rails capstone at Microverse. This app is a web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
     image: 'images/budget-app-4.png',
-    seeLive: "https://pacific-wave-62950.herokuapp.com/",
+    seeLive: "https://github.com/Zelalem1222/Budget-app",
     seeSource: "https://github.com/Zelalem1222/Budget-app",
   },
   {
