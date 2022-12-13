@@ -111,14 +111,14 @@ const works = [
   },
   {
     id: 4,
-    name: 'Todo List',
-    experiance: ['Todo', 'Frontend Dev', '2021'],
+    name: 'To Do List',
+    experiance: ['To Do', 'Frontend Dev', '2021'],
     description:
-      'A todo list application that includes adding a new list and deleting the unwanted list. ',
+      'A to do list application that includes adding a new list and deleting the unwanted list. ',
     languages: ['html', 'Webpack', 'css', 'javaScript'],
     popuplanguage: ['html', 'css', 'javaScript', 'local storage', 'webpack', 'bootstrap'],
     popDescription:
-      'A todo list application that includes adding a new list and deleting the unwanted list. I used local storage to store the data.',
+      'A to do list application that includes adding a new list and deleting the unwanted list. I used local storage to store the data.',
     image: 'images/todo-list.png',
     seeLive: 'https://zelalem1222.github.io/To-do-list-App/' , 
     seeSource: 'https://github.com/Zelalem1222/To-do-list-App'
