@@ -11,7 +11,7 @@
  
 # Live Demo 
   you can follow the link to see my portfolio work.
-  This is the live deployment [link](https://zelalem1222.github.io/Personal-Portfolio/) of my project
+  This is the live deployment [link](https://zelalem1222.github.io/portfolio-2/) of my project
 
 
 ## Author
@@ -20,7 +20,7 @@
 
 - GitHub: [@github](https://github.com/Zelalem1222)
 - Twitter: [@twitter](https://twitter.com/Zelalem52236790)
-- LinkedIn: [LinkedIn](https://twitter.com/Zelalem52236790)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zelalemfissha/]
 
 # Contributin
 
@@ -33,4 +33,4 @@
 # Acknowledgments 
 
  Inspiration!
- To my other coding partners.
+ 
